@@ -1,5 +1,7 @@
 # X-Health Academy 🏥
 
+<img width="1016" alt="image" src="https://github.com/user-attachments/assets/1970b682-0d2a-4903-be7f-968c9912d632">
+
 > Free Medical Education Platform - Making Medical Knowledge Accessible to Everyone
 
 ## Overview 🌟
