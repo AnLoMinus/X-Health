@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner Medical Course - X-Health Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">X-Health Academy</div>
+            <div class="nav-links">
+                <a href="/">Home</a>
+                <a href="#modules">Modules</a>
+                <a href="#progress">My Progress</a>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="breadcrumb">
+        <ol class="breadcrumb-list">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item active">Beginner Course</li>
+        </ol>
+    </nav>
+
+    <main>
+        <section class="course-overview">
+            <h1>Basic Medical Education</h1>
+            <div class="course-progress">
+                <div class="progress-bar">
+                    <div class="progress" id="courseProgress">0%</div>
+                </div>
+                <p>Overall Progress: <span id="progressPercent">0%</span></p>
+            </div>
+        </section>
+
+        <section id="modules" class="modules-grid">
+            <div class="module-card" data-module="anatomy">
+                <div class="module-header">
+                    <h3>Basic Human Anatomy</h3>
+                    <span class="progress-badge">0/10 Lessons</span>
+                </div>
+                <div class="module-content">
+                    <ul class="lessons-list">
+                        <li><a href="./modules/anatomy/lesson1.html">Introduction to Human Body</a></li>
+                        <li><a href="./modules/anatomy/lesson2.html">Skeletal System</a></li>
+                        <li><a href="./modules/anatomy/lesson3.html">Muscular System</a></li>
+                        <!-- More lessons -->
+                    </ul>
+                </div>
+                <div class="module-footer">
+                    <button class="quiz-btn" data-quiz="anatomy">Take Quiz</button>
+                </div>
+            </div>
+
+            <div class="module-card" data-module="physiology">
+                <div class="module-header">
+                    <h3>Introduction to Physiology</h3>
+                    <span class="progress-badge">0/8 Lessons</span>
+                </div>
+                <div class="module-content">
+                    <ul class="lessons-list">
+                        <li><a href="modules/physiology/lesson1.html">Cell Function</a></li>
+                        <li><a href="modules/physiology/lesson2.html">Body Systems</a></li>
+                        <!-- More lessons -->
+                    </ul>
+                </div>
+                <div class="module-footer">
+                    <button class="quiz-btn" data-quiz="physiology">Take Quiz</button>
+                </div>
+            </div>
+
+            <!-- Additional modules -->
+        </section>
+
+        <section id="achievements" class="achievements-section">
+            <h2>Your Achievements</h2>
+            <div class="achievements-grid">
+                <!-- Achievements will be loaded dynamically -->
+            </div>
+        </section>
+    </main>
+
+    <script src="course.js"></script>
+</body>
+
+</html>

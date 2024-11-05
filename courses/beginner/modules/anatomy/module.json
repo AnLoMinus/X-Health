@@ -1,0 +1,37 @@
+{
+  "id": "anatomy",
+  "name": "Basic Human Anatomy",
+  "description": "Learn the fundamental structures of the human body",
+  "totalLessons": 10,
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Introduction to Human Body",
+      "path": "lessons/lesson1.html",
+      "duration": "45 minutes",
+      "topics": [
+        "Levels of Organization",
+        "Anatomical Position",
+        "Directional Terms"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Skeletal System",
+      "path": "lessons/lesson2.html",
+      "duration": "60 minutes",
+      "topics": ["Bone Structure", "Major Bones", "Joints Classification"]
+    }
+    // ... more lessons
+  ],
+  "quizzes": [
+    {
+      "id": "quiz1",
+      "title": "Basic Anatomy Concepts",
+      "questions": 10,
+      "passingScore": 70
+    }
+  ],
+  "prerequisites": [],
+  "nextModule": "physiology"
+}

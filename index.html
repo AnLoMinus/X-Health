@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Health - Free Medical Education</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">X-Health Academy</div>
+            <div class="nav-links">
+                <a href="#courses">Courses</a>
+                <a href="#resources">Resources</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Add after header -->
+    <nav class="breadcrumb">
+        <ol class="breadcrumb-list">
+            <li class="breadcrumb-item active">Home</li>
+        </ol>
+    </nav>
+
+    <main>
+        <!-- Learning Paths Section -->
+        <section id="courses" class="learning-paths">
+            <h2>Medical Education Paths</h2>
+            <div class="paths-grid">
+                <div class="path-card beginner">
+                    <h3>Beginner Level</h3>
+                    <ul>
+                        <li>Basic Human Anatomy</li>
+                        <li>Introduction to Physiology</li>
+                        <li>Medical Terminology</li>
+                        <li>Basic Biology Concepts</li>
+                    </ul>
+                    <a href="courses/beginner/index.html" class="start-learning">Start Learning</a>
+                </div>
+
+                <div class="path-card intermediate">
+                    <h3>Intermediate Level</h3>
+                    <ul>
+                        <li>Advanced Anatomy</li>
+                        <li>Pathophysiology</li>
+                        <li>Basic Pharmacology</li>
+                        <li>Clinical Chemistry</li>
+                    </ul>
+                    <button class="start-learning">Start Learning</button>
+                </div>
+
+                <div class="path-card advanced">
+                    <h3>Advanced Level</h3>
+                    <ul>
+                        <li>Clinical Diagnosis</li>
+                        <li>Medical Ethics</li>
+                        <li>Research Methodology</li>
+                        <li>Specialized Medical Fields</li>
+                    </ul>
+                    <button class="start-learning">Start Learning</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Progress Dashboard -->
+        <section id="progress" class="progress-dashboard">
+            <h2>Your Learning Progress</h2>
+            <div class="progress-grid">
+                <div class="progress-card beginner">
+                    <h3>Beginner Level</h3>
+                    <div class="progress-bar">
+                        <div class="progress" id="beginnerProgress" style="width: 0%">0%</div>
+                    </div>
+                    <div class="progress-details">
+                        <p>Completed Modules: <span id="beginnerCompleted">0/4</span></p>
+                        <p>Average Score: <span id="beginnerScore">0%</span></p>
+                    </div>
+                </div>
+                <!-- Similar cards for intermediate and advanced -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 X-Health Academy - Free Medical Education For All</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
