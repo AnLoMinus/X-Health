@@ -28,3 +28,5 @@ X-Health Academy is an open-source medical education platform designed to provid
   - Basic Biology Concepts
 
 ## Project Structure 📁 
+
+Project Link: [https://github.com/anlominus/x-health](https://github.com/anlominus/x-health)
